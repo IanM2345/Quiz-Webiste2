@@ -1,0 +1,122 @@
+body {
+  background: rgb(47,30,11);
+  background: linear-gradient(90deg, rgba(47,30,11,0.6099397590361446) 0%, rgba(17,17,42,1) 35%, rgba(0,212,255,1) 100%);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  text-align: center;
+}
+
+#quiz-container {
+  background: #fff;
+  width: 90%;
+  max-width: 38rem;
+  margin: 5rem auto 0;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 20rem;
+  border-bottom: solid gray;
+  padding-bottom: 2rem;
+}
+
+#quiz-container h2{
+  font-size: 1rem;
+  color: black;
+  font-weight: 10rem;
+}
+
+#welcome-message {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#welcome-message input {
+  display: block;
+  margin: 10px auto;
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #fff;
+  color: #333;
+}
+
+
+.choices ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.choices button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+
+.choices button:hover {
+  background-color: #f0f0f0;
+}
+
+
+.choices button.clicked {
+  background-color: #007bff;
+  color: white;
+}
+
+.choices button.selected {
+  background-color:grey;
+  color: white;
+}
+
+
+
+#content-container{
+  background: #fff;
+  width: 90%;
+  max-width: 38rem; 
+  border-radius: 0.5rem;
+
+}
+#next-btn{
+  float: right;
+  display: none;
+}
+#prev-btn{
+  float: left;
+  display: none;
+}
+#submit-btn{
+  float: right;
+  display: none;
+}
